@@ -38,7 +38,7 @@ test('Test Case 2', async ({ page }) => {
   await countryDropDown.selectOption('Germany');
   await messageLocator.fill(randomMessage);
   await agreeCheckBox.click();
-  await notaRobotCheckBox.click();
+  //await notaRobotCheckBox.click();
   //not possible to get around captcha and submit
   await submitButton.click();
   await page.close();  
