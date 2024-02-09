@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Test Case 3', async ({ page }) => {
+test('UI Test Case 3', async ({ page }) => {
   const allowCookiesButton = page.getByRole('button', { name: 'Allow all cookies' });
   const worldwideMenu = page.getByLabel('Worldwide', { exact: true });
   const countryList = page.locator('#country-list-id');

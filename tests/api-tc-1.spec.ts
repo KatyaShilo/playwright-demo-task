@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('', async ({ request }) => {
+test('API Test Case 1', async ({ request }) => {
   const recievedData = await request.get(`/de/bw/stuttgart`);
   console.log('responce', await recievedData.json())
   expect(recievedData.status()).toBe(200);
