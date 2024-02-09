@@ -38,8 +38,8 @@ test('UI Test Case 2', async ({ page }) => {
   await countryDropDown.selectOption('Germany');
   await messageLocator.fill(randomMessage);
   await agreeCheckBox.click();
-  //await notaRobotCheckBox.click();
   //not possible to get around captcha and submit
+  //await notaRobotCheckBox.click(); 
   await submitButton.click();
   await page.close();  
 });
