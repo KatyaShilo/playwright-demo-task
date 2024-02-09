@@ -16,7 +16,4 @@ test('API Test Case 2', async ({ request }) => {
       latitude: '34.0901'
     }]
   }));
-  //expect(await recievedData.json()).toContainEqual({ 'place name': 'Beverly Hills' });
-  //expect(await recievedData.json().places).objectContaining({ 'place name': 'Beverly Hills' });
-
 });
